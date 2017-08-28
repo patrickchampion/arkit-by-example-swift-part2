@@ -7,23 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD0FAB071F54C96300E74C4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0FAB061F54C96300E74C4A /* AppDelegate.swift */; };
-		CD0FAB091F54C96300E74C4A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0FAB081F54C96300E74C4A /* art.scnassets */; };
-		CD0FAB0B1F54C96300E74C4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0FAB0A1F54C96300E74C4A /* ViewController.swift */; };
 		CD0FAB0E1F54C96300E74C4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD0FAB0C1F54C96300E74C4A /* Main.storyboard */; };
 		CD0FAB101F54C96300E74C4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0FAB0F1F54C96300E74C4A /* Assets.xcassets */; };
 		CD0FAB131F54C96300E74C4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD0FAB111F54C96300E74C4A /* LaunchScreen.storyboard */; };
+		CD0FAB1D1F54C9EB00E74C4A /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0FAB1A1F54C9EA00E74C4A /* Plane.swift */; };
+		CD0FAB1E1F54C9EB00E74C4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0FAB1B1F54C9EA00E74C4A /* AppDelegate.swift */; };
+		CD0FAB1F1F54C9EB00E74C4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0FAB1C1F54C9EB00E74C4A /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD0FAB031F54C96300E74C4A /* arkit-by-example-swift-part2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "arkit-by-example-swift-part2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD0FAB061F54C96300E74C4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD0FAB081F54C96300E74C4A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		CD0FAB0A1F54C96300E74C4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD0FAB0D1F54C96300E74C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD0FAB0F1F54C96300E74C4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD0FAB121F54C96300E74C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD0FAB141F54C96300E74C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD0FAB1A1F54C9EA00E74C4A /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		CD0FAB1B1F54C9EA00E74C4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../myProject/ArkitTest/ArkitTest/AppDelegate.swift; sourceTree = "<group>"; };
+		CD0FAB1C1F54C9EB00E74C4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../myProject/ArkitTest/ArkitTest/ViewController.swift; sourceTree = "<group>"; };
+		CD0FAB211F54CD8E00E74C4A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		CD0FAAFA1F54C96300E74C4A = {
 			isa = PBXGroup;
 			children = (
+				CD0FAB211F54CD8E00E74C4A /* README.md */,
 				CD0FAB051F54C96300E74C4A /* arkit-by-example-swift-part2 */,
 				CD0FAB041F54C96300E74C4A /* Products */,
 			);
@@ -56,11 +58,11 @@
 		CD0FAB051F54C96300E74C4A /* arkit-by-example-swift-part2 */ = {
 			isa = PBXGroup;
 			children = (
-				CD0FAB061F54C96300E74C4A /* AppDelegate.swift */,
-				CD0FAB081F54C96300E74C4A /* art.scnassets */,
-				CD0FAB0A1F54C96300E74C4A /* ViewController.swift */,
+				CD0FAB1B1F54C9EA00E74C4A /* AppDelegate.swift */,
+				CD0FAB1A1F54C9EA00E74C4A /* Plane.swift */,
 				CD0FAB0C1F54C96300E74C4A /* Main.storyboard */,
 				CD0FAB0F1F54C96300E74C4A /* Assets.xcassets */,
+				CD0FAB1C1F54C9EB00E74C4A /* ViewController.swift */,
 				CD0FAB111F54C96300E74C4A /* LaunchScreen.storyboard */,
 				CD0FAB141F54C96300E74C4A /* Info.plist */,
 			);
@@ -126,7 +128,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD0FAB091F54C96300E74C4A /* art.scnassets in Resources */,
 				CD0FAB131F54C96300E74C4A /* LaunchScreen.storyboard in Resources */,
 				CD0FAB101F54C96300E74C4A /* Assets.xcassets in Resources */,
 				CD0FAB0E1F54C96300E74C4A /* Main.storyboard in Resources */,
@@ -140,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD0FAB0B1F54C96300E74C4A /* ViewController.swift in Sources */,
-				CD0FAB071F54C96300E74C4A /* AppDelegate.swift in Sources */,
+				CD0FAB1F1F54C9EB00E74C4A /* ViewController.swift in Sources */,
+				CD0FAB1E1F54C9EB00E74C4A /* AppDelegate.swift in Sources */,
+				CD0FAB1D1F54C9EB00E74C4A /* Plane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
